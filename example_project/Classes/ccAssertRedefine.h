@@ -3,7 +3,7 @@
 
 #include "platform/CCPlatformConfig.h"
 #if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
-//Переопределяем CC_ASSERT для андройд. Добавляем отправку лога в crashlytics
+//Redefine CC_ASSERT for Android. Crashlytics logging added.
 
 #ifdef CC_ASSERT
 #undef CC_ASSERT
@@ -43,7 +43,7 @@
 #endif //CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
 
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
-
+//Redefine CC_ASSERT for iOS. Crashlytics logging added.
 #ifdef NDEBUG
 
 #ifdef CC_ASSERT
