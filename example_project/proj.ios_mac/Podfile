@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'MyCppGame-desktop' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for MyCppGame-desktop
+
+end
+
+target 'MyCppGame-mobile' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MyCppGame-mobile
+
+  pod 'Fabric'
+  pod 'Crashlytics'
+
+end
